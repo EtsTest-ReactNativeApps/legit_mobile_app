@@ -11,7 +11,7 @@ export default function App() {
 
 
     <View style={styles.titles}>
-    <Text style={styles.title} >Model S</Text> 
+    <Text style={styles.title} >Model X</Text> 
     <Text style={styles.subtitle}>Starting at $83,190</Text>
 
     </View>
@@ -19,8 +19,6 @@ export default function App() {
 
 
    </View>
-
- 
 
       <StatusBar style="auto" />
     </View>
