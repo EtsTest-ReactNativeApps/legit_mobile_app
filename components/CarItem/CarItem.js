@@ -1,6 +1,7 @@
 import React from 'react'
 import { View, Text, ImageBackground } from 'react-native'
 import styles from './styles'
+import StyledButton from '../StyledButton/StyledButton'
 
 
 const CarItem = (props) => {
@@ -15,8 +16,8 @@ const CarItem = (props) => {
     
         </View>
     
-    
-    
+        <StyledButton type='primary' content={"Custom Order"} onPress={() => console.warn('Custom Order was clicked')} />
+        <StyledButton type='secondary' content={"Existing Inventory"} onPress={() => console.warn('Existing Inventory was clicked')} />
        </View>
     )
 }
