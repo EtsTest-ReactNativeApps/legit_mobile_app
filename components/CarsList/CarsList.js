@@ -1,14 +1,18 @@
 import React from 'react'
-import { Text, View } from 'react-native'
+import { View, FlatList } from 'react-native'
 import styles from './styles'
 import cars from './cars'
+import CarItem from '../CarItem/CarItem'
 
 
 const CarsList = (props) => {
 
         return (
-            <View>
-                <Text> textInComponent </Text>
+            <View style={styles.container}>
+                <FlatList 
+                data={cars}
+                renderItem={({item}) => <CarItem car={item} /> }
+                />
             </View>
         )
 }
