@@ -25,7 +25,8 @@ const styles = StyleSheet.create({
       },
       TaglineCTA:{
         textDecorationLine: 'underline',
-        
+        fontSize: 17,
+
       },
       image:{
         width: '100%',
