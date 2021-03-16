@@ -13,7 +13,7 @@
 ## Installation
 * clone it, navigate to directory using terminal, npm run it. scan QR code, (for apple you'll need to download xcode)
 ## Screenshot
-![screenshot](./Screen-Shot.gif)
+<!-- ![screenshot](./Screen-Shot.gif) -->
 ## Usage
 * Check available cars
 ## Contributing
