@@ -5,15 +5,20 @@ import StyledButton from '../StyledButton/StyledButton'
 
 
 const CarItem = (props) => {
+
+    const { name, tagline, TaglineCTA, image } = props;
     return (
         <View style={styles.carContainer}> 
-        <ImageBackground source={require('../../assets/images/ModelX.jpeg')}  
+        <ImageBackground source= {image}   
         style={styles.image}/>
 
         <View style={styles.titles}>
-        <Text style={styles.title} >Model X</Text> 
-        <Text style={styles.subtitle}>Starting at $83,190</Text>
-    
+        <Text style={styles.title} >{name}</Text> 
+        <Text style={styles.subtitle}> {tagline} 
+        <Text style={styles.TaglineCTA}>
+            {TaglineCTA}
+        </Text>
+        </Text>
         </View>
 
         <View style={styles.buttonsContainer}> 
